@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Heebo', sans-serif;
+}
+
+.search-engine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.search-input {
+    padding: 1.2em; 
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(65, 68, 68);
+    color: white;
+    margin-right: 1em;
+    width: 20%;
+}
+
+.search-btn {
+    background-image: url('/icons/search.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1.2em;
+}
+
+.search-input::placeholder {
+    padding-left: 1em;
+    background-image: url('/icons/google.svg');
+    background-repeat: no-repeat;
+    background-size: 1em;
+    font-size: 1.2em;
+}
